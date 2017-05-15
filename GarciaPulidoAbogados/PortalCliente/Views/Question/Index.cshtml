@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container" style="margin-bottom:20px;">
+    <h2>Dejanos tu pregunta y alguien de nuestro equipo se pondrá en contacto contigo.</h2>
+</div>
+
+
+<div ng-app="app" ng-controller="QuestionController" class="container container-table" ng-form="form">
+
+    <div class="row vertical-center-row">
+
+        <div class="form-group">
+            <label for="email">* Correo Electronico:</label>
+            <input type="text" id="email" name="email" ng-model="entity.customerEmail" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="name">* Nombre(s):</label>
+            <input type="text" id="name" name="name" ng-model="entity.customerName" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">* Apellido(s):</label>
+            <input type="text" id="lastName" name="lastName" ng-model="entity.customerLastName" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="phone1">* Telefono:</label>
+            <input type="text" id="phone1" name="phone1" ng-model="entity.customerPhone01" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+            <label for="phone2">  Telefono Adicional:</label>
+            <input type="text" id="phone2" name="phone2" ng-model="entity.customerPhone02" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="message">* Deja tu Pregunta:</label>
+            <textarea type="text" id="message" name="message" ng-model="entity.message" class="form-control text-comments" required></textarea>
+        </div>
+
+        <div class="form-group text-center">
+            <button ng-disabled="!form.$valid" class="btn btn-success" ng-click="Save()"><i class="glyphicon glyphicon-send"></i> Enviar</button>
+        </div>
+
+    </div>    
+
+</div>
+
+
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/App/Views/Question/question.app.js"></script>

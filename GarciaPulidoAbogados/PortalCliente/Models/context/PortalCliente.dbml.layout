@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PortalCliente">
+  <DataContextMoniker Name="/PortalClienteDataContext" />
+  <nestedChildShapes>
+    <classShape Id="37cd964a-4190-497c-80be-1b96b6d591dc" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/PortalClienteDataContext/CONFIG_Parameter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="efabb549-5514-4001-913b-88a7263992c3" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="111b85d5-af6c-4fe9-ab10-eee1b83c482d" isExpanded="false" absoluteBounds="4.75, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/PortalClienteDataContext/CAT_DataType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d157bbd-df9f-412b-b4e1-279a1ea00fdb" absoluteBounds="4.765, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19015bd1-6a12-4a3c-aa2d-7092aa9778f4" isExpanded="false" absoluteBounds="6.875, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/PortalClienteDataContext/SEG_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e9c33dae-4c59-45e8-b3c3-b79cc1ae390d" absoluteBounds="6.8900000000000006, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1178b057-0873-4b21-b156-7732559147c0" isExpanded="false" absoluteBounds="2.625, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/PortalClienteDataContext/OP_CustomerMessage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ada41e5-babb-4e16-b2f9-121fc1671d7e" absoluteBounds="2.6399999999999997, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="04db6a78-a16a-4ea9-b433-aa9e0e710466" isExpanded="false" absoluteBounds="4.75, 1, 2, 0.45">
+      <DataClassMoniker Name="/PortalClienteDataContext/CAT_Profile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e2887fac-8d88-4ce5-ad66-9ecf44ecf3f4" absoluteBounds="4.7650000000000006, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
